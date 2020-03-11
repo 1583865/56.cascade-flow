@@ -1,0 +1,42 @@
+
+#main {
+	/*宽度202:图片宽度165+内边距10x2+边框宽度1x2+15*/
+	-webkit-column-width: 202px;
+	-moz-column-width: 202px;
+	-o-column-width: 202px;
+	-ms-column-width: 202px;
+
+/*列*/
+	/*-webkit-column-count:5;
+	-moz-column-count:5;
+	-o-column-count:5;
+	-ms-column-count:5;*/
+/*边框线*/
+	-webkit-column-rule: 2px dashed #F00;
+	-moz-column-rule: 2px dashed #F00;
+	-o-column-rule: 2px dashed #F00;
+	-ms-column-rule: 2px dashed #F00;
+
+	/*内间距*/
+	-webkit-column-gap: 5px;
+	-moz-column-gap: 5px;
+	-o-column-gap: 5px;
+	-ms-column-gap: 5px;
+}
+.box {
+	padding: 10px  0 0 15px;
+	
+}
+.pic{
+	width: 165px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #CCC
+
+}
+ .pic img {
+ 	display: block;
+	width: 165px;
+	height: auto;
+}
